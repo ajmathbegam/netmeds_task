@@ -1,0 +1,108 @@
+@import "../vendor//bootstrap-5.2.3/scss/bootstrap.scss";
+
+$primary-color: #f37422;
+$black: #2b2b2b;
+$white: white;
+$gray: #717171;
+
+h1 {
+    color: red;
+}
+
+.navbar-nav {
+    .nav-link {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: $black;
+
+        &.active {
+            color: $primary-color;
+        }
+    }
+}
+
+.btn-outline-primary {
+    color: $primary-color;
+    border: 1px solid $primary-color;
+
+    &:hover {
+        background-color: $primary-color;
+        color: $white;
+    }
+}
+
+.banner-carousel {
+    .carousel-inner {
+        height: 640px;
+
+        .carousel-item {
+            border-radius: 30px;
+            background: linear-gradient(167.61deg, #ff6704 -10.62%, #fd5166 110.92%);
+
+            .title {
+                font-weight: 700;
+                font-size: 64px;
+                color: $white;
+            }
+
+            p {
+                color: $white;
+            }
+
+            .btn-banner {
+                background: #fff5ed;
+                width: 316px;
+                color: $primary-color;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.text-gray {
+    color: $gray;
+}
+
+.ond-title {
+    font-size: 40px;
+    color: $black;
+}
+
+.brand-card-continer {
+    width: 158.89px;
+
+    .brand-card {
+        background: #fff5ed;
+        text-align: center;
+        width: 100%;
+        height: 158.89px;
+        margin-bottom: 10px;
+
+        img {
+            width: 79.45px;
+            height: 79.45px;
+            margin: auto;
+        }
+    }
+}
+
+.ic-icon-card {
+    width: 80%;
+   
+    h4 {
+        font-weight: 700;
+        font-size: 35px;
+        color: $black;
+    }
+    p{
+        color: $gray;
+        font-weight: 500;
+    }
+}
+
+.hover-sha{
+    &:hover{
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    }
+
+}
